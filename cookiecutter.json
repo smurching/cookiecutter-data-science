@@ -1,4 +1,22 @@
 {
+    "file_types": {
+        "png": {
+            "name": "Portable Network Graphic",
+            "library": "libpng",
+            "apps": [
+                "GIMP"
+            ]
+        },
+        "bmp": {
+            "name": "Bitmap",
+            "library": "libbmp",
+            "apps": [
+                "Paint",
+                "GIMP"
+            ]
+        }
+    },
+    "new_param": "default value",
     "project_name": "project_name",
     "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
     "author_name": "Your name (or your organization/company/team)",
