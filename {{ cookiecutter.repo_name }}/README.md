@@ -1,6 +1,7 @@
 {{cookiecutter.project_name}}
 ==============================
 
+{{cookiecutter.new_param}}
 {{cookiecutter.description}}
 
 Project Organization
